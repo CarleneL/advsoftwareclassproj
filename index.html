@@ -184,6 +184,41 @@ We are having trouble setting up the database but will plan to go to office hour
         This sprint was slightly less productive than our typical velocity. Considering that we still have 6 points, which we have allocated to Sprint 5, and a velocity around 7 points per sprint, it seems likely that we will be able to complete this project in 5 sprints, even with the additional 6.5 points that were added by the stakeholders in the previous sprint.
       </p>
   </div>
+
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#sprint5">Final Sprint Report 4</button>
+
+    <div id="sprint5" class="collapse">
+      <h3> Sprint 5 </h3>
+      <h3> Sprint Report Date: December 12, 2017 </h3>
+      <img src="images/Sprint5_burndown.png">
+      <br>
+      <img src="images/Project_burndown_chart_5.png">
+      <br>
+      <h3> Sprint stories </h3>
+      <ol>
+        <li>As a user, I want the system to validate all of the email addresses from attendees so that no one enters an invalid email </li>
+        <li>As a user, I should not be able to complete an incomplete or invalid event</li>
+        <li>As a product owner, I want to test multiple versions of my donation link to see what is most effective because I care about maximizing my donation conversion (3 points) – In progress </li>
+      </ol> 
+
+      <p>
+
+        Our team was able to complete all but one of the user stories in the final sprint. We initially ran into some issues with testing— some tests were passing when tested manually, but were not passing using the automated system. Our development team escalated this issue to the leadership team and then sought additional support. After reaching out, the development team was able to adjust the code and pass all of the automated tests.
+
+        While the google analytics code was in place and able to monitor traffic to the website, it appears it was not tracking the response to the donate/support link. We believe the root cause was because on click of the donate/support link, our webapp simply printed a response to the user instead of redirecting to a dedicated donate.html page with the google analytics tracking script on it. Below is a view of source of traffic to our website, with our most frequent source coming from som.yale.edu
+ 
+
+      </p>
+
+      <img src="images/traffic.png">
+
+      <h3> Product backlog (Prioritized) </h3>
+      <p>
+        <ul>
+          <li> resolve the donate/support link tracking issue. 
+        </ul>
+      </p>
+  </div>
 </div>
 
 </body>
